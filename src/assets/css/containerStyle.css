@@ -1,0 +1,49 @@
+.tag {
+    background-color: transparent;
+    color: #FF8B8C;
+    border: solid #FF8B8C 2px;
+    font-size: 16px;
+    padding-left: 22px;
+    padding-right: 22px;
+    word-wrap: unset;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: inline-block;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.tag.active {
+    background-color: #FF8B8C;
+    color: white;
+}
+
+.feedFilter select {
+    height: 50px;
+    margin-left: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.salon {
+    background-color: white;
+    height: 470px;
+    box-shadow: 3px 5px 21px rgba(71, 71, 71, 0.1);
+    border-radius: 0px 20px;
+}
+
+.salonImg {
+    border-radius: 0px 20px;
+    height: 273px;
+}
+
+.salon .tag {
+    background-color: #FFF4F5;
+    opacity: 75%;
+    color: #D1004E;
+    border: none;
+    cursor: default;
+}

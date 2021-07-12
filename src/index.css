@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Lato";
+    src: url("./assets/font-family/Lato/Lato-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: "Lato";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #3F3F3F;
+    background-color: #FFF4F5;
+}
+
+h1 {
+    font-weight: bolder;
+    line-height: auto;
+    font-size: 60px;
+    letter-spacing: 0px;
+}
+
+h2 {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 48px;
+    letter-spacing: 0px;
+}
+
+h3 {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 42px;
+    letter-spacing: 0px;
+}
+
+h4 {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 36px;
+    letter-spacing: 0px;
+}
+
+h5 {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+
+h6,
+a {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+
+.body-large {
+    font-size: 24px;
+}
+
+caption {
+    font-weight: normal;
+    line-height: auto;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.overline {
+    font-weight: bold;
+    line-height: auto;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+input {
+    font-weight: normal;
+    line-height: auto;
+    font-size: 16px;
+    letter-spacing: 0.5pxpx;
+}
+
+label {
+    color: #B8BCC1;
+}
+
+::placeholder {
+    color: #E2E2E2;
+}
+
+:-ms-input-placeholder {
+    color: #E2E2E2;
+}
+
+:-ms-input-placeholder {
+    color: #E2E2E2;
+}
+
+.title {
+    color: #2C2C2C;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
